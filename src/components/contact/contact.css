@@ -1,0 +1,138 @@
+.contact {
+  background-image: url("../../images/bgbubble.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+
+  margin-top: 100px;
+  background-size: cover;
+}
+
+.contact .contact_box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 0 10% 0 0;
+}
+
+.contact .contact_box_mobile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contact .contact_box_mobile .contact_content {
+  margin: 0 5% 0 10%;
+  width: 100%;
+}
+
+.contact .contact_box_mobile .contact_images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.contact .contact_box_mobile .box_input .row_input {
+  display: flex;
+  row-gap: 30px;
+
+  align-items: center;
+  flex-wrap: wrap;
+  flex: 1;
+}
+
+.contact .contact_box_mobile .box_input .row_input input {
+  margin-left: 0;
+  width: calc(100% - 30px);
+}
+
+.contact .contact_box_mobile .contact_content .box_input .row_input {
+  display: flex;
+
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+}
+.contact .contact_box_mobile .contact_content .box_input .item_input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+}
+.contact .contact_box_mobile .contact_content .box_input .item_input .message {
+  margin-left: 20px;
+}
+
+.contact_box .contact_content {
+  width: 50%;
+}
+
+.contact_box .contact_images {
+  width: 50%;
+}
+
+.contact_content .box_input {
+  margin-top: 40px;
+}
+
+.contact_content .box_input .row_input {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.contact_content .box_input .row_input input {
+  width: 242px;
+  height: 62px;
+  border-radius: 15px;
+  border: 1px solid #d9ddfe;
+  outline: none;
+  padding-left: 21px;
+}
+input::placeholder,
+textarea::placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  color: #c5c5c5;
+}
+
+.box_input .row_input input:nth-child(2) {
+  margin-left: 30px;
+}
+
+.box_input .item_input {
+  padding: 30px 30px 30px 0;
+}
+
+.item_input input {
+  width: 100%;
+  height: 62px;
+  border-radius: 15px;
+  border: 1px solid #d9ddfe;
+  outline: none;
+  margin: 15px auto;
+  padding-left: 20px;
+}
+
+.box_input .message {
+  width: 100%;
+  height: 190px;
+  border-radius: 15px;
+  border: 1px solid #d9ddfe;
+  outline: none;
+  padding: 20px;
+  margin: 15px 20px 0 0;
+}
+
+.contact .contact_images {
+  margin-left: 10%;
+}
+
+.contact_content button {
+  margin-top: 10px;
+}

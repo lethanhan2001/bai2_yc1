@@ -1,0 +1,91 @@
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text1,
+.text3 {
+  width: 14.82px;
+  height: 3.09px;
+  background: #eeeeee;
+  border-radius: 50px;
+}
+
+.text2 {
+  width: 25.31px;
+  height: 8.15px;
+  background: #414880;
+  border-radius: 50px;
+  margin: 0 10px;
+}
+.services {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.services p {
+  line-height: 24px;
+}
+
+.services h6 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #ff64ae;
+}
+.services h1 {
+  font-size: 36px;
+  font-weight: 600;
+  color: #091156;
+}
+
+.services .box_list {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 50px;
+  flex: 1;
+  flex-wrap: wrap;
+  row-gap: 50px;
+}
+
+/* .services .box_list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 30px 5% 30px 10%;
+}
+
+.services .box_list.active {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 30px 5% 30px 13%;
+  gap: 60px 0;
+} */
+
+.box_list .box1 {
+  width: 343px;
+  height: 408px;
+  background: #fff;
+  box-shadow: 0px 25px 50px 25px #efeff8;
+  border-radius: 42px;
+  padding: 0 20px;
+}
+
+.box_list .box1 img {
+  margin-top: 40px;
+  margin: 40px auto;
+}
+
+.services .box1 h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #091156;
+  margin-top: 50px;
+}
+.services .box1 span {
+  font-size: 14px;
+  font-weight: 400;
+  color: #8b8b8b;
+
+  padding: 0 20px 0 5px;
+  line-height: 24px;
+}

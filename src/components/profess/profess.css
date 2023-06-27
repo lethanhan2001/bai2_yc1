@@ -1,0 +1,48 @@
+.profess {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.profess .box_list {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 50px;
+  flex: 1;
+  flex-wrap: wrap;
+  row-gap: 50px;
+}
+
+.profess .box1 {
+  width: 343px;
+  height: 458px;
+  background: #fff;
+  box-shadow: 10px 25px 50px 25px #efeff8;
+  border-radius: 42px;
+  padding: 0 20px;
+}
+
+.box1 p {
+  font-size: 16px;
+  font-weight: 600;
+  color: #ff64ae;
+}
+
+.box1 h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #091156;
+}
+
+.box1 span {
+  font-size: 14px;
+  font-weight: 400;
+  color: #8b8b8b;
+}
+
+.profess .box_icons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: -30px;
+}
