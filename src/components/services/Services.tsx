@@ -16,7 +16,9 @@ const Services = () => {
 
       <div className="services">
         <h6>Main Services</h6>
-        <h1>Learn services to focus on your beauty</h1>
+        <h1>
+          Learn services to focus <br /> on your beauty
+        </h1>
         <p>
           Porta rhoncus orci condimentum vitae lobortis eu dignissim non massa.
           Non parturient <br />

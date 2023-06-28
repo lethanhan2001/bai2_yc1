@@ -14,7 +14,7 @@ const About = () => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elit, quam
             suscipit purus donec amet. Egestas volutpat facilisi eu libero.
             Nunc, ipsum ornare mauris sit quam quis enim. Varius tellus in
-            suspendisse placerat. Id dui erat sed quam tellus in purus.
+            suspendisse placerat. <br /> Id dui erat sed quam tellus in purus.
             Pellentesque congue fringilla cras tellus enim.
           </p>
 

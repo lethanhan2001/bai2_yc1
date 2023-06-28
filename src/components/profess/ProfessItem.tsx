@@ -2,6 +2,7 @@ import { Profess } from "../../types";
 import Facebook from "../../images/Facebook.png";
 import Twitter from "../../images/Twitter (1).png";
 import Instagram from "../../images/Instagram.png";
+import "./profess.css";
 interface ProfessItems {
   item: Profess;
 }

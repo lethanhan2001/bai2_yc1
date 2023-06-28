@@ -81,7 +81,7 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 41px 10%;
+  padding: 41px calc(8% + 10px) 41px calc(10% + 5px);
   position: relative;
 }
 
@@ -96,10 +96,11 @@ li {
 }
 
 .menuheader .headers .title {
-  margin-left: 30px;
+  margin-left: 36px;
   font-size: 24px;
   font-weight: 700;
   color: #091156;
+  letter-spacing: 2.5px;
 }
 
 .menuheader .headers .logo .one {
@@ -111,8 +112,8 @@ li {
 .menuheader .headers .logo .two {
   width: 13px;
   position: absolute;
-  top: 14px;
-  left: 10px;
+  top: 12px;
+  left: 12px;
   height: 13px;
   border-radius: 50%;
   background: #fff;
@@ -120,9 +121,9 @@ li {
 .menuheader .headers .logo .three {
   height: 6px;
   width: 6px;
-  top: 29px;
+  top: 24px;
   position: absolute;
-  left: 22px;
+  left: 24px;
   border-radius: 50%;
   background: #fff;
 }
@@ -145,7 +146,8 @@ nav ul {
 
 nav ul li {
   list-style: none;
-  margin: 0 30px;
+  margin: 0 25.5px;
+  letter-spacing: 1px;
 }
 
 nav ul li:first-child {
@@ -176,7 +178,8 @@ nav ul li button {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  margin: 0 12%;
+  margin: 6% calc(12% + 15px);
+  letter-spacing: 1px;
 }
 
 .content.active {
@@ -191,12 +194,17 @@ nav ul li button {
   font-size: 48px;
   font-weight: 600;
   color: #091156;
+  line-height: 55px;
+  margin-top: 30px;
 }
 
 .content .content_header p {
   font-size: 16px;
   font-weight: 500;
   color: #091156;
+  line-height: 24px;
+  margin-top: 15px;
+  letter-spacing: 1.8px;
 }
 
 .content_header button {
@@ -209,11 +217,13 @@ nav ul li button {
   font-weight: 600;
   border: none;
   outline: none;
-  margin-top: 20px;
+  margin-top: 35px;
+  letter-spacing: 2px;
 }
 
 .content_image img {
-  margin-top: 50px;
+  margin-top: 30px;
+  margin-left: 25px;
 }
 
 /*===================SMALL TABLET 600PX*/

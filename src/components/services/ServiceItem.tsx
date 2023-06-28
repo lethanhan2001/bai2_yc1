@@ -1,5 +1,5 @@
 import { Services } from "../../types";
-
+import "./services.css";
 interface ServicesItem {
   item: Services;
 }
