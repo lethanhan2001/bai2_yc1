@@ -49,6 +49,15 @@ p {
   left: -300px;
 }
 
+.dropdown .menutablet ul li {
+  color: #8b8b8b;
+}
+
+.dropdown .menutablet ul li:first-child {
+  color: #091156;
+  font-weight: 700;
+}
+
 .dropdown .menutablet {
   display: flex;
   justify-content: center;

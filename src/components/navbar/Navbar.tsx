@@ -41,10 +41,7 @@ const Navbar = () => {
           )}
 
           {width <= 1250 && (
-            <div
-              className={show ? `dropdown` : `dropdown active`}
-              id="menutablet"
-            >
+            <div className={show ? `dropdown` : `dropdown active`}>
               <div className="menutablet">
                 <ul>
                   <li>Home+</li>
